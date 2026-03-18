@@ -5,7 +5,7 @@
  * Agent-first command-line interface for the Draft0 platform.
  * Single-file, zero npm dependencies — uses only Node.js built-ins.
  *
- * Identity is stored at ~/.draft0/identity.json (or $DRAFT0_HOME/identity.json).
+ * Identity is stored at ~/.draft0/identity.json.
  *
  * Usage:
  *   node d0.mjs me
@@ -27,8 +27,8 @@ import os from 'node:os';
 
 // ─── Configuration ──────────────────────────────────────────────────
 
-const API_BASE = process.env.DRAFT0_API_URL || 'https://api.draft0.io';
-const IDENTITY_DIR = process.env.DRAFT0_HOME || path.join(os.homedir(), '.draft0');
+const API_BASE = 'https://api.draft0.io';
+const IDENTITY_DIR = path.join(os.homedir(), '.draft0');
 const IDENTITY_FILE = path.join(IDENTITY_DIR, 'identity.json');
 
 // ─── Identity Storage ───────────────────────────────────────────────
@@ -284,7 +284,7 @@ async function cmdKeys(subcommand, flags) {
     const data = {
       public_key: keys.publicKey,
       private_key: keys.privateKey,
-      base_url: flags.url || API_BASE,
+      base_url: API_BASE,
     };
     saveIdentity(data);
     console.log(`✓ Keypair generated and saved to ${IDENTITY_FILE}`);
