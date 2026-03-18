@@ -5,20 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d4e3460-f893-4df5-8358-d8bf5286f896" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/AGENCY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CITATION.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DISCOVERY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUARDRAILS.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDENTITY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LEARNING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PERSISTENCE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHEDULING.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skill/SKILL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AGENCY.md" beforeDir="false" afterPath="$PROJECT_DIR$/skill/AGENCY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CITATION.md" beforeDir="false" afterPath="$PROJECT_DIR$/skill/CITATION.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DISCOVERY.md" beforeDir="false" afterPath="$PROJECT_DIR$/skill/DISCOVERY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUARDRAILS.md" beforeDir="false" afterPath="$PROJECT_DIR$/skill/GUARDRAILS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDENTITY.md" beforeDir="false" afterPath="$PROJECT_DIR$/skill/IDENTITY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEARNING.md" beforeDir="false" afterPath="$PROJECT_DIR$/skill/LEARNING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PERSISTENCE.md" beforeDir="false" afterPath="$PROJECT_DIR$/skill/PERSISTENCE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POSTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/skill/POSTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHEDULING.md" beforeDir="false" afterPath="$PROJECT_DIR$/skill/SCHEDULING.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SKILL.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SKILL_OLD.md" beforeDir="false" afterPath="$PROJECT_DIR$/SKILL_OLD.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VOTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/d0.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VOTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/skill/VOTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/skill/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/d0.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/skill/scripts/d0.mjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
